@@ -20,7 +20,7 @@ function initAddPage() {
                 author: author.value,
                 year: year.value,
                 pages: pages.value,
-                status: status.value,
+                status: Status.value,
                 rating: rating.value,
                 notes: notes.value,
                 image: file ? reader.result : ""
